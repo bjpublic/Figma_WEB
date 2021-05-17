@@ -1,0 +1,323 @@
+@import url('reset.css');
+@import url('common.css');
+
+/* ------------- INDEX ------------- */
+.welcome{
+    height:100vh;
+    background:url(../images/welcome_bg.png) no-repeat center center/cover;
+    padding-top:134px;
+    box-sizing:border-box;
+}
+.welcome h1{   
+    text-align: center;
+    color:#fff;
+}
+.welcome h1 + p{   
+    margin-top: 127px;
+    margin-bottom: 119px;
+    text-align: center;
+    color:#fff;
+    font-size: 21px;
+    line-height: 34px;
+}
+.sign_links a:first-child{
+    margin-bottom: 25px;
+}
+
+/* ------------- SIGN IN ------------- */
+.sign_in{
+    height:100vh;
+    background:url(../images/welcome_bg.png) no-repeat center center/cover;
+    padding-top:97px;
+    box-sizing:border-box;
+}
+[class^="sign"] .main-tt{
+    color:#fff;
+}
+.sign_in form{
+    margin-top: 116px;
+}
+[class^="sign"] form label{
+    display:none;
+}
+[class^="sign"] form input{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    border:none;
+    background: rgba(238,238,238,0.4);
+    padding:0 20px;
+    box-sizing:border-box;
+    color: #fff;
+    font-size: 16px;
+}
+[class^="sign"] form input::placeholder{
+    color:#fff;
+}
+[class^="sign"] form p:not(:last-child){
+    margin-bottom: 25px;
+}
+.signin_links {
+    margin-top: 20px;
+} 
+.signin_links a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+}
+.signin_links a:first-child{
+    margin-bottom: 25px;
+}
+
+/* ------------- SIGN UP ------------- */
+.sign_up{
+    height:100vh;
+    background:url(../images/sign_up_bg.jpg) no-repeat center center/cover;
+    padding-top:92px;
+    box-sizing:border-box;
+}
+.sign_up form {
+    margin-top: 60px;
+}
+
+/* ------------- CATEGORIES ------------- */
+header {
+    background: #7E57C2;
+    height:50px;
+    position: relative;
+}
+header > h1{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+}
+header img{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);    
+}
+.menu_icon_left{
+    left:25px;
+}
+.menu_icon_right {
+    right:25px;
+}
+.category_slider_wrap{
+    position: relative;
+    overflow: hidden;
+}
+.category_slider_wrap .pager {
+    position: absolute;
+    left: 0;right: 0; bottom:15px;
+    text-align: center;
+}
+
+.pager span{
+    width: 13px;
+    height: 13px;
+    border:3px solid #7E57C2;
+    box-sizing:border-box;
+    border-radius:50%;
+    text-indent: -9999em;
+    transition: 0.35s all;
+    margin:0 5px;
+}
+.pager span.active{
+    background: #7E57C2;
+}
+.category_list {
+    display: flex; 
+    flex-wrap:wrap;   
+    margin-top: 25px;
+}
+.category_list li{
+    width: 46%;
+    margin-right:8%;
+    margin-bottom: 25px;
+}
+.category_list li:nth-child(2n){
+    margin-right: 0;
+}
+.category_list li img{
+    width:100%;
+}
+.category_list li h3{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #757575;
+}
+.category_list li h4{
+    font-size: 13px;
+    line-height: 21px;    
+    color: #757575;
+}
+
+/* ------------- CART ------------- */
+.cart_list li{
+    display: flex;
+    justify-content: space-between;    
+    align-items:center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom:1px solid #ccc;
+}
+.cart_list_info {
+    flex:1;
+    margin-left:10px;
+}
+.cart_list li img{
+    width: 40px;
+}
+.cart_list_info h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color:#757575;
+}
+.cart_list_info p, .del_icon{
+    font-size: 10px;
+    line-height: 16px; 
+    color:#757575;
+}
+.cart_price li{
+    display: flex;
+    justify-content: flex-end;
+    font-size:15px;
+    line-height: 25px;
+    color: #757575;
+    margin-bottom: 6px;
+}
+.cart_price  p{
+    width: 88px;
+    text-align:right;
+}
+.cart_price li:last-child{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 62px;
+}
+.cart_price li:last-child p{
+    color: #7E57C2;
+}
+
+/* ------------- SHOP ------------- */
+.top_product {
+    position: relative;
+    padding: 25px 25px 0 0;
+}
+.top_product img{
+    width:100%;
+}
+.top_product .info{
+    position: absolute;
+    bottom:-25px;
+    left:50px;
+    right:0;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow:0 0 8px rgba(0,0,0,.25);
+}
+.top_product .info .desc{
+    display: flex;
+    justify-content: space-between;
+}
+.top_product .info h2{
+    font-size: 18px;
+    line-height: 29px;
+    color: #757575;
+    margin-bottom: 5px;
+}
+.top_product .info .price, .rate{
+    font-size: 13px;
+    line-height: 21px;
+    color:#7E57C2;
+}
+.shop_products {
+    margin-top: 78px;
+    padding-left:25px;
+}
+.product_list li{
+    width: 125px;
+}
+.product_list li img{
+    width:100%;
+}
+.product_list li h3{
+    font-size: 15px;
+    line-height: 25px;
+    color: #757575;
+    margin-top: 15px;
+}
+.product_list li h4{
+    font-size: 13px;
+    line-height: 21px;
+    color: #7E57C2;
+    margin-top: 5px;
+}
+
+/* ------------- DETAILS ------------- */
+main h2{
+    font-size: 18px;
+    line-height: 29px;
+    color: #757575;
+}
+.details_pic_slides {
+    margin-top: 20px;
+    position: relative;
+}
+.details_pic_slides .slide{
+    width: 275px;
+}
+.details_pic_slides .slide img{
+    width: 100%;
+}
+.details_pic_slides .pager{
+    position: absolute;
+    bottom: -27px;
+    right:0;
+    display: flex;
+}
+.details_pic_slides .pager span{
+    width: 7px;
+    height: 7px;
+    border-width:1px;
+}
+.details_pic_slides .pager .active{
+    background:#7E57C2;
+}
+.details_info {
+    margin-top: 20px;
+}
+.details_info h3{
+    font-size: 26px;
+    line-height: 26px;
+    color: #757575;
+}
+.details_info p{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #757575;
+}
+.details_info form{
+    margin-top: 20px;
+}
+.details_info form label{
+    display: none;
+}
+.details_info form select{
+    width: 100px;
+    height: 23px;
+    font-size: 10px;
+    line-height: 23px;
+    border:1px solid #999;    
+    color: #757575;
+    margin-right: 23px;
+}
+.details_info form .btn{
+    display: block;
+    margin-top: 25px;
+}

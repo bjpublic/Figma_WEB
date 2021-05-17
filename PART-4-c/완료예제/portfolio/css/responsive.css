@@ -1,0 +1,111 @@
+@media screen and (max-width:1110px){
+    .container {
+        width: 100%;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .portfolio-slides .swiper-slide img{
+        width: 100%;
+    }
+    .portfolio-slide-wrap .controls .next{
+        left: calc(100% - 50px);
+    }
+    .portfolio-slide-wrap .controls .prev{
+        right: calc(100% - 50px);
+    }
+    .portfolio-slide-wrap .controls span{
+        z-index:2;
+    }
+}
+
+@media screen and (max-width:768px){
+    .portfolio-slides {
+        width:80%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .menu-toggle-btn{
+        display:block;
+        background: none;        
+        border:none;
+        font-size: 18px;
+        color: #333333;
+    }
+    nav{
+        height:auto;
+    }
+    nav div{
+        flex-direction:column;
+        align-items:flex-start;
+        position: relative;
+    }    
+    .social-menu{
+        position: absolute;
+        right:15px;
+        top:5px;
+    }
+    nav .main-menu {
+        flex-direction: column;
+        align-items: start;
+        background: #333;
+        width: 100%;
+        padding:15px;
+        display: none;
+    }
+    nav .container{
+        padding:0;
+    }
+    .menu-toggle-btn{
+        height:40px;
+        padding: 0;       
+        margin-left: 15px;
+    }
+    
+    .feature .container{
+        padding:0;
+    }
+    .feature-list {
+        flex-direction:column;
+        background: none;
+    }
+    .feature-list .item{
+        height: 120px;
+        justify-content: flex-start;
+        flex:none;        
+        padding-left: 15px;
+        background: url(../images/feature_bg.jpg) no-repeat left top;
+        border-right:none;
+    }
+    .feature-list .item a{
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+    }
+    .feature-list .item:nth-child(1){
+        border-left:none;
+    }
+    .feature-list .item:nth-child(2){
+        background-position:center center;
+    }
+    .feature-list .item:nth-child(3){
+        background-position:right bottom;
+    }
+    .feature-list .item img {
+        margin-right: 20px;
+    }
+    .services.container{
+        padding:50px 15px;
+    }
+    .services .contents{
+        flex-wrap:wrap;
+    }
+    .services .contents div{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    footer .contents{
+        flex-direction:column;
+    }
+
+}
