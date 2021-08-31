@@ -6,19 +6,19 @@
 - 출간일: 2021년 7월 19일
 - 페이지수: 672쪽
 
+<br><br><br>
 ## 소스코드 및 완료본 다운로드
-쇼핑몰, 포트폴리오 사이트 디자인 소스 및 완료본을 다운로드 할 수 있습니다.
+- 쇼핑몰, 포트폴리오 사이트 디자인 소스 및 완료본을 다운로드 할 수 있습니다.
+- ※주의※ PART-2-b의 완성파일이 대용량으로 다운로드되지 않을 경우, 해당 폴더에서 직접 Download 버튼을 클릭하세요.
 
-※주의※ 
-PART-2-b의 완성파일이 대용량으로 다운로드되지 않을 경우, 해당 폴더에서 직접 Download 버튼을 클릭하세요.
-
+<br><br><br>
 ## 구매 링크
-
 - [예스24](http://www.yes24.com/Product/Goods/102591441)
 - [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920739&orderClick=LAG&Kc=)
 - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275035527)
 - [인터파크](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.shopNo=0000400000&sc.prdNo=352137636&pis1=book&pis2=product)
 
+<br><br><br>
 ## 책 소개
 <h4>웹 디자인 x 웹 퍼블리싱</h4>
 <h4>모두를 소화하는 실무형 인재가 되고 싶다면,</h4>
@@ -31,14 +31,15 @@ PART-2-b의 완성파일이 대용량으로 다운로드되지 않을 경우, �
 
 피그마의 숨은 기능까지 빠짐없이 철저하게 짚어주는 이 책을 통해 피그마를 완벽하게 활용하는 방법을 터득해 보자. 웹 디자이너와 웹 퍼블리셔의 경계를 허무는, 디자인 능력뿐만 아니라 개발 지식까지 갖춘 ‘실무형 인재’로 거듭날 수 있을 것이다.
 
+<br><br><br>
 ## 대상 독자
-
 * 웹 디자인을 처음 접하시는 분
 * 코딩 친화적인 웹 디자인에 관심이 있는 분
 * 디자인과 퍼블리싱 모두 가능한 나만의 경쟁력을 갖추고 싶은 분
 * HTML, CSS, jQuery의 기본기는 있지만, 종합적인 적용이 힘든 분
 * 반응형 웹 페이지를 만들고 싶은 분
 
+<br><br><br>
 ## 저자 소개
 <h4>김동주</h4>
 
@@ -48,6 +49,7 @@ IT 붐이 있던 2000년대 초반, 웹 마스터 과정을 수료하고 직접 
 - (현) 이지웹 대표
 - 유튜브: http://www.youtube.com/c/EasywebPublishing
 
+<br><br><br>
 ## 출판사 리뷰
 <h4>왜 Figma(피그마)인가?</h4>
 
@@ -68,6 +70,5 @@ IT 붐이 있던 2000년대 초반, 웹 마스터 과정을 수료하고 직접 
 
 이 책과 함께 디자인과 퍼블리싱을 모두 안고 나만의 경쟁력을 키워서, 기업이 원하는 ‘실무형 인재’로 거듭나길 바란다.
 
-
-
+<br><br><br>
 ![상세페이지 원본 1080 x](https://user-images.githubusercontent.com/21074282/126171750-6d2966aa-ccb2-45fe-a08e-c21deac91e29.jpg)
