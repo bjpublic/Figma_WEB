@@ -12,7 +12,7 @@
 - ※주의※ PART-2-b의 완성파일이 대용량으로 다운로드되지 않을 경우, 해당 폴더에서 직접 Download 버튼을 클릭하세요.
 
 <br><br><br>
-## 구매 링크
+## 온라인 서점 구매 링크
 - [예스24](http://www.yes24.com/Product/Goods/102591441)
 - [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920739&orderClick=LAG&Kc=)
 - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275035527)
