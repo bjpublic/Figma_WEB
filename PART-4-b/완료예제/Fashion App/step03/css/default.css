@@ -243,6 +243,7 @@ header img{
 .shop_products {
     margin-top: 78px;
     padding-left:25px;
+    overflow-x: hidden;
 }
 .product_list li{
     width: 125px;
